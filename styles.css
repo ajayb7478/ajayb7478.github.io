@@ -12,8 +12,8 @@ body {
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  margin-top: 20px;
+  border-radius: 0px;
+  margin-top: 0px;
 }
 
 header {
@@ -27,7 +27,7 @@ header {
 header h1 img {
   width: 100%; /* Adjust the width to your preference */
   height: auto;
-  margin-right: 10px;
+  margin-right: 1px;
   margin-bottom: 0px;
   border-radius: 10px; /* Add spacing between the image and text */
 }
@@ -48,16 +48,8 @@ header h1 img {
   padding: 0;
   background-color: #ffffff;
   color: #333;
-  font-size: 21px;
+  font-size: 14px;
   text-align: justify;
-}
-
-.my-description img {
-  width: 20%;
-  height: auto;
-  margin-right: 30px;
-  border-radius: 35px;
-  box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.1);
 }
 
 .my-description-continued {
@@ -66,7 +58,7 @@ header h1 img {
   padding: 0;
   background-color: #ffffff;
   color: #333;
-  font-size: 18px;
+  font-size: 14px;
   text-align: justify;
 }
 
