@@ -1,4 +1,4 @@
-Build 26
-- Added a new Landing zone navigator on the screen
-- Added Fuel and Speed Functionality
+Build 27
+- Fixed Landing zone navigator on the screen
+- Added new terrain and new placeholder Rocket and VFX
 
