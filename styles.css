@@ -19,17 +19,32 @@ body {
 header {
   background-color: #ffffff;
   color: #000000;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
-  border-radius: 10px 10px 10px 0;
+  overflow: hidden;
+  max-width: 800px;
+  margin: 0 auto; /* Add overflow: hidden to contain floated image */
+}
+
+header h1 {
+  margin: 0;
+  text-align: center; /* Remove default margin for h1 */
 }
 
 header h1 img {
-  width: 100%; /* Adjust the width to your preference */
+  width: 100%; /* Set width to 100% to fill the container */
   height: auto;
-  margin-right: 1px;
-  margin-bottom: 0px;
-  border-radius: 10px; /* Add spacing between the image and text */
+  border-radius: 0; /* Remove border-radius for the header image */
+}
+
+header h1 img {
+  width: calc(
+    100% + 40px
+  ); /* Set width to 100% plus potential padding/margin */
+  margin: -20px; /* Counteract the potential padding/margin */
+  height: auto;
+  border-radius: 0;
+  display: block; /* Make the image a block element to remove any inline spacing */
 }
 
 .download-section img {
@@ -63,10 +78,10 @@ header h1 img {
 }
 
 .download-section {
-  background-color: #46ae2781;
+  background-color: #ebebeb;
   padding: 20px;
-  border-radius: 0 0 10px 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px 20px 10px 10px;
+  box-shadow: 10px 0 10px rgba(0, 0, 0, 0.1);
 }
 
 a {
