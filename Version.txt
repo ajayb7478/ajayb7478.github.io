@@ -1,4 +1,5 @@
-Build 28
-- Added Distance.
-- Added New Textures for the rocket.
+Build 30
+- Added New Rocket SFX
+- Added New Throttle Functionality
+- Added New Explosion SFX and VFX
 
