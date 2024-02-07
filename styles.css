@@ -6,6 +6,7 @@ body {
   border-radius: px;
   color: #333;
   margin-top: 0px;
+  cursor: url("icons8-rocket-50.png") 0 0, auto;
 }
 
 .container {
@@ -129,6 +130,7 @@ a {
 
 a:hover {
   background-color: #29b948;
+  cursor: url("icons8-rocket-50 click.png") 0 0, auto;
 }
 
 .additional-links {
@@ -159,8 +161,10 @@ a:hover {
   transition: background-color 0.3s ease;
   margin-bottom: 10px;
   margin-top: 10px;
+  cursor: url("icons8-rocket-50 click.png") 0 0, auto;
 }
 
 .additional-links a:hover {
   background-color: #7ac02b;
+  cursor: url("icons8-rocket-50 click.png") 0 0, auto;
 }
