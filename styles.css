@@ -1,11 +1,9 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #000000;
-  border-radius: px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #161616;
   color: #333;
-  margin-top: 0px;
   cursor: url("icons8-rocket-50.png") 0 0, auto;
 }
 
@@ -15,140 +13,84 @@ body {
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 0px;
-  margin-top: 0px;
 }
 
 header {
   background-color: #ffffff;
   color: #000000;
-  padding: 20px;
+  padding: 0px;
   text-align: center;
   overflow: hidden;
-  max-width: 800px;
-  margin: 0 auto; /* Add overflow: hidden to contain floated image */
+  max-width: 840px;
+  margin: 0 auto;
 }
 
-header h1 {
-  margin: 0;
-  text-align: center; /* Remove default margin for h1 */
-}
-
-header h1 img {
-  width: 100%; /* Set width to 100% to fill the container */
-  height: auto;
-  border-radius: 0; /* Remove border-radius for the header image */
-}
-
-header h1 img {
-  width: calc(
-    100% + 40px
-  ); /* Set width to 100% plus potential padding/margin */
-  margin: -20px; /* Counteract the potential padding/margin */
-  height: auto;
-  border-radius: 0;
-  display: block; /* Make the image a block element to remove any inline spacing */
-}
-
-header {
-  background-color: #ffffff;
-  color: #000000;
-  padding: 20px;
-  text-align: center;
-  overflow: hidden;
-  max-width: 800px;
-  margin: 0 auto; /* Add overflow: hidden to contain floated image */
-}
-
+header h1,
 header h3 {
   margin: 0;
-  text-align: center; /* Remove default margin for h1 */
+  text-align: center;
+  background-color: #161616;
+  color: #161616;
+}
+
+header h1 img {
+  width: 100%; /* Set width to 100% to fill the container */
+  height: 100%; /* Maintain aspect ratio */
+  border-radius: 0; /* Remove border-radius */
+  display: block; /* Make the image a block element */
+  margin: 0; /* Remove default margin */
+  padding: 0px; /* Remove default padding */
+  background-color: #161616;
+  color: #161616;
+  border-radius: 20px 20px 0px 0px;
 }
 
 header h3 img {
   width: 100%; /* Set width to 100% to fill the container */
-  height: auto;
-  border-radius: 0; /* Remove border-radius for the header image */
-}
-
-header h3 img {
-  width: calc(
-    100% + 40px
-  ); /* Set width to 100% plus potential padding/margin */
-  margin: -20px; /* Counteract the potential padding/margin */
-  height: auto;
-  border-radius: 0;
-  display: block; /* Make the image a block element to remove any inline spacing */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 0; /* Remove border-radius */
+  display: block; /* Make the image a block element */
+  margin: 0; /* Remove default margin */
+  padding: 0px; /* Remove default padding */
+  border-radius: 0px 0px 20px 20px;
 }
 
 .download-section img {
   width: 100%;
   height: auto;
   margin-bottom: 20px;
-  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.my-description {
-  display: flex;
-  align-items: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-  color: #333;
-  font-size: 18px;
-  text-align: justify;
+  border-radius: 0px 0px 20px 20px;
 }
 
 .my-description-continued {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
   background-color: #ffffff;
   color: #333;
   font-size: 18px;
   text-align: justify;
 }
 
-.download-section {
-  background-color: #ebebeb;
-  padding: 20px;
-  border-radius: 20px 20px 10px 10px;
-  box-shadow: 10px 0 10px rgba(0, 0, 0, 0.1);
-}
-
-a {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #3498db;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-a:hover {
-  background-color: #29b948;
-  cursor: url("icons8-rocket-50 click.png") 0 0, auto;
-}
-
 .additional-links {
   margin-top: 20px;
+  cursor: url("icons8-rocket-50.png") 0 0, auto;
 }
 
 .additional-links h2 {
   color: #000000;
+  cursor: url("icons8-rocket-50.png") 0 0, auto;
 }
 
 .additional-links ul {
   list-style-type: none;
   padding: 0;
+  cursor: url("icons8-rocket-50.png") 0 0, auto;
 }
 
 .additional-links li {
   margin-bottom: 10px;
   margin-top: 10px;
+  cursor: url("icons8-rocket-50.png") 0 0, auto;
 }
 
 .additional-links a {
@@ -157,11 +99,11 @@ a:hover {
   color: #ffffff;
   padding: 8px 16px;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: background-color 0.3s ease;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  cursor: url("icons8-rocket-50 click.png") 0 0, auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  cursor: url("icons8-rocket-50.png") 0 0, auto;
 }
 
 .additional-links a:hover {
